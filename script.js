@@ -34,6 +34,14 @@ const tools = [
         tags: ["国产", "语音", "写作"],
         category: "chat",
         link: "https://xinghuo.xfyun.cn"
+
+        {
+    name: "即梦AI",
+    description: "一站式AI创作平台",
+    tags: ["国产", "中文"， "绘图"],
+    category: "AI绘图",
+    link: "https://https://jimeng.jianying.com/ai-tool/home"
+}
     }
 ];
 
