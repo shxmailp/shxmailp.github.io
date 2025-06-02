@@ -138,3 +138,27 @@ header {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 }
+// 添加分类按钮事件
+function setupCategoryFilters() {
+    // 可以动态生成分类按钮
+    const categories = [...new Set(tools.map(tool => tool.category))];
+    
+    categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.textContent = cat;
+        btn.addEventListener('click', () => {
+            const filtered = tools.filter(tool => tool.category === cat);
+            renderFilteredTools(filtered);
+        });
+        document.querySelector('.search-box').after(btn);
+    });
+}
+
+function renderFilteredTools(filteredTools) {
+    const container = document.getElementById('toolContainer');
+    container.innerHTML = '';
+    
+    filteredTools.forEach(tool => {
+        // 使用之前的卡片生成代码
+    });
+}
