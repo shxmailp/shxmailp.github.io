@@ -41,7 +41,7 @@ const tools = [
          description: "一站式AI创作平台",
          tags: ["国产",  "绘图"],
          category: "AI绘图",
-         link: "https://https://jimeng.jianying.com/ai-tool/home"
+         link: " https://jimeng.jianying.com/ "
     }
 
 ];
