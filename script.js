@@ -35,14 +35,15 @@ const tools = [
         category: "chat",
         link: "https://xinghuo.xfyun.cn"
 
-        {
-    name: "即梦AI",
-    description: "一站式AI创作平台",
-    tags: ["国产", "绘图"],
-    category: "AI绘图",
-    link: "https://https://jimeng.jianying.com/ai-tool/home"
-}
+    },
+    {
+         name: "即梦AI",
+         description: "一站式AI创作平台",
+         tags: ["国产",  "绘图"],
+         category: "AI绘图",
+         link: "https://https://jimeng.jianying.com/ai-tool/home"
     }
+
 ];
 
 // 渲染工具卡片
