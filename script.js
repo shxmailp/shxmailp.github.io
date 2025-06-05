@@ -1,39 +1,39 @@
 // 工具数据
 const tools = [
     {
-        name: "ChatGPT",
-        description: "OpenAI开发的对话AI，支持自然语言交流",
-        tags: ["聊天", "写作", "编程"],
+        name: "稿定设计",
+        description: "在线设计平台",
+        tags: ["平面设计", "图片"],
         category: "chat",
-        link: "https://chat.openai.com"
+        link: "https://www.gaoding.com/"
     },
     {
-        name: "文心一言",
-        description: "百度推出的中文对话AI，适合中文场景",
-        tags: ["国产", "中文", "创作"],
-        category: "chat",
-        link: "https://yiyan.baidu.com"
+        name: "飞影数字人",
+        description: "AI数字人",
+        tags: ["国产", "中文", "数字人"],
+        category: "数字人",
+        link: "https://hifly.cc/"
     },
     {
-        name: "通义千问",
-        description: "阿里云开发的中文AI助手",
-        tags: ["国产", "办公", "编程"],
-        category: "chat",
-        link: "https://tongyi.aliyun.com"
+        name: "闪剪",
+        description: "AI数字人",
+        tags: ["国产", "语音", "数字人"],
+        category: "数字人",
+        link: "https://shanjian.tv/?inviteId=666936c96058d5003e3bb57f"
     },
     {
-        name: "WPS AI",
-        description: "金山办公的AI工具，集成在WPS中",
-        tags: ["国产", "办公", "PPT"],
-        category: "productivity",
-        link: "https://ai.wps.cn"
+        name: "AI文案成片",
+        description: "免费全能创作工具",
+        tags: ["国产", "数字人", "一键成片"],
+        category: "数字人",
+        link: "https://www.jianying.com/ai-creator/start"
     },
     {
-        name: "讯飞星火",
-        description: "科大讯飞的认知大模型",
-        tags: ["国产", "语音", "写作"],
-        category: "chat",
-        link: "https://xinghuo.xfyun.cn"
+        name: "蝉镜",
+        description: "AI数字人",
+        tags: ["国产", "语音", "数字人"],
+        category: "数字人",
+        link: "https://www.chanjing.cc/home/"
 
     },
     {
